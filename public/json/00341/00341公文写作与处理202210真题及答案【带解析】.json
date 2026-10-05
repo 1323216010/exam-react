@@ -1,0 +1,153 @@
+{
+  "exam_info": {
+    "title": "00341 公文写作与处理 2022 年 10 月真题",
+    "subject": "公文写作与处理",
+    "code": "00341",
+    "date": "2022 年 10 月"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "单项选择题",
+      "content": "上级领导机关对下级机关或群众发出的用以领导和指导工作的公文，称之",
+      "options": {
+        "A": "指挥性公文",
+        "B": "规范性公文",
+        "C": "知照性公文",
+        "D": "记录性公文"
+      },
+      "answer": "A",
+      "score": 1
+    },
+    {
+      "question_number": "2",
+      "question_type": "单项选择题",
+      "content": "下列公文中属于记录性公文的是",
+      "options": {
+        "A": "报告",
+        "B": "决定",
+        "C": "意见",
+        "D": "会议纪要"
+      },
+      "answer": "D",
+      "score": 1
+    },
+    {
+      "question_number": "3",
+      "question_type": "单项选择题",
+      "content": "公文具有强烈政治性与法定权威性，且带有强制性，体现了公文的",
+      "options": {
+        "A": "领导指导作用",
+        "B": "传递信息作用",
+        "C": "行为规范作用",
+        "D": "公务联系作用"
+      },
+      "answer": "C",
+      "score": 1
+    },
+    {
+      "question_number": "4",
+      "question_type": "单项选择题",
+      "content": "下列不属于公文特点的是",
+      "options": {
+        "A": "独立性强",
+        "B": "针对性强",
+        "C": "政策性强",
+        "D": "时限性强"
+      },
+      "answer": "A",
+      "score": 1
+    },
+    {
+      "question_number": "5",
+      "question_type": "单项选择题",
+      "content": "公文写作不是仅凭撰写者个人行为，一般不具有个人风格而表现为一种文体风格，体现的公文写作特点是",
+      "options": {
+        "A": "对象明确，针对性强",
+        "B": "被动写作，遵命性强",
+        "C": "决策之用，政策性强",
+        "D": "集思广益，群体性强"
+      },
+      "answer": "D",
+      "score": 1
+    },
+    {
+      "question_number": "6",
+      "question_type": "单项选择题",
+      "content": "公文在落笔起草之前，首先要做的是",
+      "options": {
+        "A": "明确发文主旨",
+        "B": "收集有关材料",
+        "C": "调查获取数据",
+        "D": "拟出写作提纲"
+      },
+      "answer": "A",
+      "score": 1
+    },
+    {
+      "question_number": "7",
+      "question_type": "单项选择题",
+      "content": "“欣悉、敬悉、据查、据报”等用语，是公文中常见的",
+      "options": {
+        "A": "开端用语",
+        "B": "引叙用语",
+        "C": "经常用语",
+        "D": "期请用语"
+      },
+      "answer": "B",
+      "score": 1
+    },
+    {
+      "question_number": "8",
+      "question_type": "单项选择题",
+      "content": "对事物的形状、性质、特征、成因等作简要解说的是",
+      "options": {
+        "A": "定义说明",
+        "B": "注释说明",
+        "C": "比较说明",
+        "D": "分类说明"
+      },
+      "answer": "B",
+      "score": 1
+    },
+    {
+      "question_number": "9",
+      "question_type": "单项选择题",
+      "content": "上行文中最基本最常用的行文方式是",
+      "options": {
+        "A": "多级上行文",
+        "B": "公开上行文",
+        "C": "逐级上行文",
+        "D": "越级上行文"
+      },
+      "answer": "C",
+      "score": 1
+    },
+    {
+      "question_number": "10",
+      "question_type": "单项选择题",
+      "content": "依照主送机关与公文文种要相互呼应的原则，主送机关是直属上级领导机关，应使用的文种是",
+      "options": {
+        "A": "通知、通报",
+        "B": "决定、批复",
+        "C": "令、决议",
+        "D": "请示、报告"
+      },
+      "answer": "D",
+      "score": 1
+    },
+    {
+      "question_number": "11",
+      "question_type": "单项选择题",
+      "content": "请示除领导直接交办事项，不得直接发送给",
+      "options": {
+        "A": "联合指导机关",
+        "B": "直接隶属机关",
+        "C": "业务指导机关",
+        "D": "领导者个人"
+      },
+      "answer": "D",
+      "score": 1
+    }
+  ]
+}
