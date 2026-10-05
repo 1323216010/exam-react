@@ -5,8 +5,10 @@ import { gradePaper } from './grade'
 import { loadAttempt, saveAttempt, clearAttempt } from './storage'
 import type { Answers, ExamListItem, Grade, Paper } from './types'
 import './App.css'
+import Study from './StudyPage'
 
 export default function App() {
+  const [mode, setMode] = useState<'papers' | 'study'>('papers')
   const [list, setList] = useState<ExamListItem[]>([])
   const [subject, setSubject] = useState('全部')
   const [search, setSearch] = useState('')
@@ -46,7 +48,8 @@ export default function App() {
   return <><header><div className="wrap"><span className="brand">自考练习 <small>React 版</small></span><p>专科 · 行政管理 / 独立试验版</p></div></header><main className="wrap">
     {error && <p role="alert" className="error">{error}</p>}
     {loading && <p role="status">正在加载题库…</p>}
-    {!paper ? <>
+    {!paper && <nav className="toolbar" aria-label="学习模式"><button className={mode==='papers'?'active':''} onClick={()=>setMode('papers')}>试卷练习</button><button className={mode==='study'?'active':''} onClick={()=>setMode('study')}>考点学习</button></nav>}
+    {!paper && mode==='study' ? <Study onPractice={path=>{const item=list.find(x=>x.file===path);if(item)void open(item);else setError('来源试卷未在题库清单中找到。')}} /> : !paper ? <>
       <section className="intro"><h1>选一套，开始练习。</h1><p>一月重点：公共政策导论、电子政务概论、法学概论</p><p className="muted">00318 为旧课码练习资料，不标作 13672 历年真题。</p></section>
       <section className="filters"><nav aria-label="科目筛选">{['全部', ...names].map(name => <button key={name} aria-pressed={subject===name} className={subject===name?'active':''} onClick={()=>setSubject(name)}>{name}</button>)}</nav><label>搜索试卷 <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="年份、试卷名称或章节" /></label></section>
       <p className="muted">共 {shown.length} 套 · 作答进度保存在当前浏览器</p>
